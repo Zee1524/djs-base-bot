@@ -4,6 +4,7 @@ import loadCommands from './handlers/commandHandler.js';
 import loadEvents from './handlers/eventHandler.js';
 import logger from './utils/logger.js';
 import './utils/antiCrash.js';
+import antiCrash from './utils/antiCrash.js';
 
 dotenv.config();
 
