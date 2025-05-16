@@ -1,0 +1,31 @@
+{
+  "name": "lira",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "handler",
+    "slash-commands"
+  ],
+  "author": "staz",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
